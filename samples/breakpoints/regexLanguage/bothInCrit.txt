@@ -1,0 +1,1 @@
+|true|*.|IS_IN_STATE(alice, alice.CS) && IS_IN_STATE(bob, bob.CS)|

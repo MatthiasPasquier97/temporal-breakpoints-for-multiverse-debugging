@@ -1,0 +1,37 @@
+{
+    "0":{
+        "modelPath": "./samples/models/AnimUML/AliceBob1.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/bothInCrit.txt",
+        "breakpointType": "RegexLanguage"
+    },
+    "1":{
+        "modelPath": "./samples/models/AnimUML/AliceBob2.js",
+        "breakpointPath": "./samples/breakpoints/AnimUML/bothInCrit.js",
+        "breakpointType": "AnimUML"
+    },
+    "2":{
+        "modelPath": "./samples/models/AnimUML/AliceBob2.js",
+        "breakpointPath": "./samples/breakpoints/AnimUMLLiveness/testLiveness.js",
+        "breakpointType": "AnimUMLLiveness"
+    },
+    "3":{
+        "modelPath": "./samples/models/AnimUML/AliceBobPeterson.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/turnChange.txt",
+        "breakpointType": "RegexLanguage"
+    },
+    "4":{
+        "modelPath": "./samples/models/AnimUML/AliceBobPeterson.js",
+        "breakpointPath": "./samples/breakpoints/Regexlanguage/testLiveness.js",
+        "breakpointType": "Regexlanguage"
+    },
+    "5":{
+        "modelPath": "./samples/models/AnimUML/AliceBobPeterson.js",
+        "breakpointPath": "./samples/breakpoints/AnimUMLLiveness/starvation.js",
+        "breakpointType": "AnimUMLLiveness"
+    },
+    "6":{
+        "modelPath": "./samples/models/AnimUML/AliceBobPeterson.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/ACS5Times.txt",
+        "breakpointType": "RegexLanguage"
+    }
+}

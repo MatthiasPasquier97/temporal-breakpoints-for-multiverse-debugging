@@ -1,0 +1,1 @@
+|true|*.|@__builtin__.config.objectState.dataManager.__EMI__turn??0@ !== __builtin__.config.objectState.dataManager.__EMI__turn??0|.|true|

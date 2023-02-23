@@ -1,0 +1,1 @@
+|!IS_TRANSITION(processA.AEnteringCritical)|*.|IS_TRANSITION(processA.AEnteringCritical)|
