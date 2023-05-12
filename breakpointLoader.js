@@ -1,8 +1,9 @@
 import { regex2iSLI } from "./regexLanguage/regex2iSLI.js";
 import * as fs from 'fs';
-import {ndfs_gs09_cdlp05} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/model-checkers/buchi/mc_buchi_ndfs_gs09_cdlp05.js";
-import {nbfs_naive} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/model-checkers/buchi/mc_buchi_nbfs_naive.js";
+//import {ndfs_gs09_cdlp05} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/model-checkers/buchi/mc_buchi_ndfs_gs09_cdlp05.js";
+//import {nbfs_naive} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/model-checkers/buchi/mc_buchi_nbfs_naive.js";
 const {bfs_hashset_predicate_mc_simple, bfs_hashset_predicate_mc_full, dfs_hashset_predicate_mc_full} = AnimUMLUtils.z2mc.z_hashset_predicate_mc;
+const mc_buchi_ndfs_gs09_cdlp05 = AnimUMLUtils.mc_buchi_ndfs_gs09_cdlp05;
 
 import {DictionnaryiSLI} from "./dictionnaryLanguage/dictionnaryiSLI.js"
 

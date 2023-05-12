@@ -1,0 +1,1 @@
+true*.(|@__ROOT__proposerA.proposalNumber@!=__ROOT__proposerA.proposalNumber || @__ROOT__proposerB.proposalNumber@!=__ROOT__proposerB.proposalNumber|).(|__ROOT__proposerA.proposalNumber == __ROOT__proposerB.proposalNumber|)

@@ -3,10 +3,10 @@
 //import { KripkeBuchiAsymmetricSynchronousProductSemantics, StateEventAsymmetricSynchronousProductSemantics } from "../animuml/src/z2mc-javascript/src/operators/str/synchronous_product_semantics.js";
 
 // AnimUMLUtils must have been loaded beforehand from the importing module, or a parent
-import {StepSynchronousProductSemantics} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/operators/str/synchronous_product_semantics.js";
+//import {StepSynchronousProductSemantics} from "/home/matthias-pasquier/Documents/Logiciels/z2mc-javascript/src/operators/str/synchronous_product_semantics.js";
 const {bfs_hashset_predicate_mc_simple, bfs_hashset_predicate_mc_full, dfs_hashset_predicate_mc_full} = AnimUMLUtils.z2mc.z_hashset_predicate_mc;
 const { STR2TR } = AnimUMLUtils.z2mc.str2tr;
-//const { StateSynchronousProductSemantics, StepSynchronousProductSemantics } = AnimUMLUtils.z2mc.synchronous_product_semantics;
+const { StateSynchronousProductSemantics, StepSynchronousProductSemantics } = AnimUMLUtils.z2mc.synchronous_product_semantics;
 
 
 

@@ -33,5 +33,20 @@
         "modelPath": "./samples/models/AnimUML/AliceBobPeterson.js",
         "breakpointPath": "./samples/breakpoints/regexLanguage/ACS5Times.txt",
         "breakpointType": "RegexLanguage"
+    },
+    "7":{
+        "modelPath": "./samples/models/AnimUML/Paxos.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/Pxs_interleavedMessage.txt",
+        "breakpointType": "RegexLanguage"
+    },
+    "8":{
+        "modelPath": "./samples/models/AnimUML/Paxos.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/Pxs_interleavedMessageTemp.txt",
+        "breakpointType": "RegexLanguage"
+    },
+    "9":{
+        "modelPath": "./samples/models/AnimUML/Paxos.js",
+        "breakpointPath": "./samples/breakpoints/regexLanguage/Pxs_identicalProposal.txt",
+        "breakpointType": "RegexLanguage"
     }
 }

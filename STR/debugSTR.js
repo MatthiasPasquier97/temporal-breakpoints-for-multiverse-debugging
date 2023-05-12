@@ -150,6 +150,7 @@ class DebugSTR {
                 result = await this.parent.finder(this.parent.operand, [debugConfiguration.current.config], debugAction.breakpoint, reduction);
             }
             if (!result["verified"]){
+                console.log("Breakpoint reached!");
                 var previousTraceEntry = new TraceEntry(result["trace"][0], debugAction, debugConfiguration.current);
                 var historyPatch = [previousTraceEntry];
                 for (let i = 1; i < result["trace"].length; i++) {
@@ -158,10 +159,11 @@ class DebugSTR {
                 }
                 return [new DebugConfig(previousTraceEntry,
                     debugConfiguration.history.concat(historyPatch),
-                    [],
+                    null,
                     debugConfiguration.breakpoints,
                     debugConfiguration.reductions)];
             }
+            console.log("Unreachable breakpoint");
             return [new DebugConfig(debugConfiguration.current,
                 debugConfiguration.history,
                 debugConfiguration.options,
